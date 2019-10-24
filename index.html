@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Crystal Collector! (Homework #4)</title>
+
+  <!-- Our CSS style sheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+  <div id="wrapper">
+
+
+    <!-- Contains name of the game -->
+
+
+    <!-- Contains game instructions -->
+    <div id="game_instructions">
+      <div id="name_of_game">
+        <h1>Crystal Collector!</h1>
+      </div>
+      <p>You will be given a random number of points to match at the start of the game. Each time you click on one of
+        the four
+        crystals below, a specific number of points is added to your total score. The value of each crystal is hidden
+        from you until you click on it and the value of each crystal changes
+        with each new game.</p>
+      <p>To win the game, you must match your total score to the random number. If your total score goes above the
+        random
+        number, you lose the game.</p>
+
+    </div>
+
+    <!--Contains label for random number user needs to match-->
+    <div id="numberMatchBox">
+      <div id="number_to_match_text">
+        <h3>Number to match:</h3>
+      </div>
+      <div id="demo">
+        <h3><strong></strong></strong></h3>
+      </div>
+    </div>
+
+    <!--Contains the random number user needs to match-->
+
+
+    <!--Contains label for user's total score-->
+    <div id="totalScoreBox">
+      <div id="total_score_text">
+        <h3>Your total score:</3>
+      </div>
+      <div id="total_score_number">
+        <h3></h3>
+      </div>
+    </div>
+
+    <button id="newGame"><strong>New Game</strong></button>
+
+
+    <!--Displays the result of each game-->
+    <div id="outer_result_box">
+      <div id="game_result_box">
+        <h2></h2>
+      </div>
+    </div>
+
+
+    <!-- Div contains the 4 gem-buttons -->
+    <div id="four_gemstones">
+
+      <div id="topaz">
+        <img src="assets/images/topaz.jpg" style="width:180px;height:180px;">
+      </div>
+      <div id="ruby">
+        <img src="assets/images/ruby.jpg" style="width:180px;height:180px;">
+      </div>
+      <div id="amethyst">
+        <img src="assets/images/amethyst.jpg" style="width:180px;height:180px;">
+      </div>
+      <div id="emerald">
+        <img src="assets/images/emerald.png" style="width:180px;height:180px;">
+      </div>
+
+    </div>
+
+
+    <div id="winsBox">
+      <div id="wins_text"><strong>Wins:</strong>
+      </div>
+      <div id="wins_number"><strong></strong>
+      </div>
+    </div>
+
+    <div id="lossesBox">
+      <div id="losses_text"><strong>Losses:</strong>
+      </div>
+      <div id="losses_number"><strong></strong>
+      </div>
+    </div>
+
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/game6.js"></script>
+
+</body>
+
+</html>
